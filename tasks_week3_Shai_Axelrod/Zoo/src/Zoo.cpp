@@ -182,7 +182,6 @@ void Zoo::run()
 	std::string res;
 	bool isValidCmd;
 
-	initZooVec();	
 	printMap();
 	printList();
 	
@@ -243,5 +242,10 @@ void Zoo::run()
 		}
 		std::cin >> userInput;
 	}
+}
+
+Zoo::Zoo()
+{ 
+	initZooVec(); 
 }
 

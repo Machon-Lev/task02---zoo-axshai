@@ -104,6 +104,10 @@ public:
      * @brief Runs the main loop of the zoo simulation.
      */
     void run();
+    /**
+     * @brief Zoo ctor.
+     */
+    Zoo();
 };
 
 
